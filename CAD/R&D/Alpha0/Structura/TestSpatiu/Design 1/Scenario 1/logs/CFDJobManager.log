@@ -1,0 +1,35 @@
+[Sun Mar 14 19:24:59 2021] Reading CPU information from SystemInfo.xml
+[Sun Mar 14 19:24:59 2021] Processors: 1, Cores per processor: 4
+[Sun Mar 14 19:24:59 2021] Requested cores: 0
+[Sun Mar 14 19:24:59 2021] Using 5 ranks
+[Sun Mar 14 19:24:59 2021] analysis path: C:\Users\alexo\Documents\Inventor\TheArch\R&D\Alpha0\Structura\TestSpatiu\Design 1\Scenario 1
+[Sun Mar 14 19:24:59 2021] Listen on port 65190
+[Sun Mar 14 19:24:59 2021] Email file: C:\ProgramData\Autodesk\CFD 2021\Analyze/job3/email.xml
+[Sun Mar 14 19:24:59 2021] Start processing tasks
+[Sun Mar 14 19:24:59 2021] Starting task: Start Messaging
+[Sun Mar 14 19:24:59 2021] Task finished in 0.00 sec
+[Sun Mar 14 19:24:59 2021] Starting task: Start Notifications
+[Sun Mar 14 19:24:59 2021] Task finished in 0.00 sec
+[Sun Mar 14 19:24:59 2021] Starting task: Run Job
+[Sun Mar 14 19:24:59 2021] startJob
+[Sun Mar 14 19:24:59 2021] Creating C:\ProgramData\Autodesk\CFD 2021\Analyze/job3/job.bat
+[Sun Mar 14 19:24:59 2021] Command: cmd.exe /c job.bat
+[Sun Mar 14 19:24:59 2021]  output:C:\ProgramData\Autodesk\CFD 2021\Analyze\job3>cd C:\Program Files\Autodesk\CFD 2021
+[Sun Mar 14 19:24:59 2021]  output:C:\Program Files\Autodesk\CFD 2021>"C:\Program Files\Autodesk\CFD 2021/CFDMesher.exe" "C:\Users\alexo\Documents\Inventor\TheArch\R&D\Alpha0\Structura\TestSpatiu\Design 1\Scenario 1/mesher/Scenario 1"
+[Sun Mar 14 19:24:59 2021]  output:-jobId=3 -cloudJobId=  -gui  -useJobFile  -port=65190
+[Sun Mar 14 19:25:33 2021] Processing mesher exited
+[Sun Mar 14 19:25:33 2021]  output:C:\Program Files\Autodesk\CFD 2021>set E=1
+[Sun Mar 14 19:25:33 2021]  output:C:\Program Files\Autodesk\CFD 2021>IF 1 NEQ 0 goto EOF
+[Sun Mar 14 19:25:33 2021]  output:C:\Program Files\Autodesk\CFD 2021>exit 1
+[Sun Mar 14 19:25:33 2021] Job finished with exit code = 1
+[Sun Mar 14 19:25:33 2021] Task finished in 34.71 sec
+[Sun Mar 14 19:25:33 2021] Starting task: Stop Notifications
+[Sun Mar 14 19:25:33 2021] Stopping mail server
+[Sun Mar 14 19:25:33 2021] Mail server has stopped
+[Sun Mar 14 19:25:33 2021] Stopping mail server thread
+[Sun Mar 14 19:25:33 2021] Mail server thread has stopped
+[Sun Mar 14 19:25:33 2021] Task finished in 0.00 sec
+[Sun Mar 14 19:25:33 2021] Starting task: Stop Messaging
+[Sun Mar 14 19:25:33 2021] Stopping messaging
+[Sun Mar 14 19:25:33 2021] Task finished in 0.00 sec
+[Sun Mar 14 19:25:33 2021] Finished processing tasks in 34.71 sec

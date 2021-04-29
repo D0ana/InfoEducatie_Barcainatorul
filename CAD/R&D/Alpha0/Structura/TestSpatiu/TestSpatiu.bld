@@ -1,0 +1,268 @@
+<template_study>
+ <study_name>TestSpatiu</study_name>
+ <active_config></active_config>
+ <new_mode>1</new_mode>
+ <template_design>
+  <design_name>Design 1</design_name>
+  <config_name>TestSpatiu</config_name>
+  <cadfile_name>C:/Users/alexo/AppData/Local/Temp/Autodesk CFD 2021/Structura\TestSpatiu.cfdsmt</cadfile_name>
+  <config_update>0</config_update>
+  <cad_launcher>CP_INVENTOR</cad_launcher>
+  <cad_model>CP_INVENTOR</cad_model>
+  <length_unit>0</length_unit>
+  <cloned_from></cloned_from>
+  <template_scenario>
+   <scenario_name>Scenario 1</scenario_name>
+   <template_setting>
+    <setting_name>Pressure(0 Pa Gage)</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>0</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>8</bcCode>
+     <attribs>0</attribs>
+     <vuStr>Pa</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>99612c85-b4ec-43de-a9e6-5cf515f1355a~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>Velocity Normal(1000 m/s)</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>1000</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>4</bcCode>
+     <attribs>0</attribs>
+     <vuStr>m/s</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>043326ff-b395-4a2d-a588-df86e2ea8071~~db1c8254-fbef-4505-9bc1-defba1d95556~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>2 Water</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>Default</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="fluid">
+      <name>Water</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source> Autodesk supplied material </source>
+      <property type="density">
+       <variation type="piecewise_linear">
+        <dep_code>kT</dep_code>
+        <x_units>kg/m3</x_units>
+        <y_units>kelvin</y_units>
+        <x>999.875</x>
+        <y>273</y>
+        <x>1000</x>
+        <y>275.222</y>
+        <x>1000.06</x>
+        <y>277.4</y>
+        <x>1000</x>
+        <y>280.778</y>
+        <x>999.2</x>
+        <y>283</y>
+        <x>998.2</x>
+        <y>293</y>
+        <x>995.6</x>
+        <y>303</y>
+        <x>992.2</x>
+        <y>313</y>
+        <x>988</x>
+        <y>323</y>
+        <x>983.2</x>
+        <y>333</y>
+        <x>977.7</x>
+        <y>343</y>
+        <x>971.8</x>
+        <y>353</y>
+        <x>965.3</x>
+        <y>363</y>
+        <x>958.3</x>
+        <y>373</y>
+        <x>926.1</x>
+        <y>413</y>
+        <x>886.9</x>
+        <y>453</y>
+        <x>840.3</x>
+        <y>493</y>
+        <x>784</x>
+        <y>533</y>
+        <x>735.5</x>
+        <y>560.7</y>
+        <x>678.7</x>
+        <y>588.6</y>
+        <x>617.341</x>
+        <y>610.778</y>
+        <x>527.494</x>
+        <y>633</y>
+        <x>315.479</x>
+        <y>647.039</y>
+       </variation>
+      </property>
+      <property type="viscosity">
+       <variation type="constant">
+        <value units="pa-s">0.001003</value>
+       </variation>
+      </property>
+      <property type="conductivity">
+       <variation type="constant">
+        <value units="w/m-k">0.6</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/kg-k">4182</value>
+       </variation>
+      </property>
+      <property type="compressibility">
+       <property type="bulk_modulus">
+        <variation type="constant">
+         <value units="pa">2.18565e+09</value>
+        </variation>
+       </property>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>1</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <property type="phase">
+       <variation type="phase_linked">
+        <phase_material>Water (Vapor)</phase_material>
+       </variation>
+      </property>
+      <color>0,85,255</color>
+      <gas_const units="m2/s2-K">455.89</gas_const>
+      <vapor_pressure units="Pa">2339</vapor_pressure>
+      <phase>liquid</phase>
+      <multi_phase_file>steam.dat</multi_phase_file>
+     </material>
+     <material_environment pressure_units="pa" reference_temperature="293" reference_pressure="101325" fixed_value="yes" temperature_units="kelvin" use_external="yes"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>PrindereDisc:2^!4856a2e1-e509-4089-9501-c4df32755d5a~~*CAD Volume*^!GEN_tag_11~~*CAD Volume*^!GEN_tag_11-1~~*CAD Volume*^!GEN_tag_9~~*CAD Volume*^!GEN_tag_9_U_*CAD Volume*^!GEN_tag_11~~*CAD Volume*^!GEN_tag_10~~SuportMotor:1^!9910805b-5079-47f7-b818-f1a33bab8dd1~~Prototip1:1^!0de66f3f-f07e-4089-b636-b3b5f4d95b1f~~SuportMotor:1^!9910805b-5079-47f7-b818-f1a33bab8dd1_U_Prototip1:1^!0de66f3f-f07e-4089-b636-b3b5f4d95b1f~~SuportMotor:1^!9910805b-5079-47f7-b818-f1a33bab8dd1_U_Prototip1:1^!0de66f3f-f07e-4089-b636-b3b5f4d95b1f-1~~Pala1:2^!85c47db5-48f7-4d76-9a6b-790f5138981a~~Prototip1:1^!0de66f3f-f07e-4089-b636-b3b5f4d95b1f_U_Pala1:2^!85c47db5-48f7-4d76-9a6b-790f5138981a~~MG996:2^!883380b2-67ef-44ab-86f8-e7c78e8af68c~~Pala1:2^!85c47db5-48f7-4d76-9a6b-790f5138981a_U_MG996:2^!883380b2-67ef-44ab-86f8-e7c78e8af68c~~Pala1:1^!e2acac32-faa1-45fb-b1c6-5b79fb180bad~~Prototip1:1^!0de66f3f-f07e-4089-b636-b3b5f4d95b1f_U_Pala1:1^!e2acac32-faa1-45fb-b1c6-5b79fb180bad~~MG996:1^!351d5a45-02fe-4966-9be3-643f916415ff~~Pala1:1^!e2acac32-faa1-45fb-b1c6-5b79fb180bad_U_MG996:1^!351d5a45-02fe-4966-9be3-643f916415ff~~*CAD Volume*^!GEN_tag_4~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>1</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>1</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name>Iterations</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>8~~10</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Flow</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>1~~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Heat transfer</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>5~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Compressible</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>2~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Turbulence</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>3~~1~100~0.05~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Advection</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>4~~17</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Gravity</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>6~~0~0~0~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Radiation</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>7~~0</content_value>
+    </setting_content>
+   </template_setting>
+  </template_scenario>
+ </template_design>
+</template_study>

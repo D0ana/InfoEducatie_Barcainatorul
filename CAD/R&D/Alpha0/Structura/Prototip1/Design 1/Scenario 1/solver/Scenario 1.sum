@@ -1,0 +1,106 @@
+﻿ *** CFD Summary File Output ***
+
+ CFD 2021 (2021) [20201120]
+
+ Job Name = Scenario 1   Date created: Sun Mar 14 19:39:49 2021
+
+
+ *** Analysis Information 
+ Steady State is ON
+Turbulent Incompressible Flow is ON2 
+
+ *** Field Variable Results Summary For Iteration 100
+
+
+  Var      Mean          at      Max          at      Min
+ Vx Vel  -1.32750e+03  29392 +1.02568e+08  29401 -1.09788e+08 cm/s
+ Vy Vel  +5.51447e+04  29344 +9.94920e+07  29405 -1.18616e+08 cm/s
+ Vz Vel  +1.06110e+05  29407 +1.47335e+08  29337 -1.06618e+08 cm/s
+ Press  +3.20560e+19   4011 +3.22039e+19  29405 +2.54095e+19 dyne/cm^2
+ Temp  +0.00000e+00   4010 +0.00000e+00   3978 +0.00000e+00 C
+ TurbK  +4.17514e+10  29403 +1.35358e+14   3978 +1.00563e-05 cm^2/s^2
+ TurbD  +2.33772e+20  29403 +1.77307e+24  69119 +1.50422e+02 cm^2/s^3
+ Scal1  +0.00000e+00   4010 +0.00000e+00   3978 +0.00000e+00  
+ PTotl  +2.89635e+19   4011 +3.22039e+19  17135 +0.00000e+00 dyne/cm^2
+ EVisc  +8.20593e+01  23641 +1.00300e+04  17135 +0.00000e+00 g/cm-s
+ ECond  +3.27819e+02  29179 +6.00000e+03  17135 +0.00000e+00 W/cm-K
+ Dens  +1.00320e+00  17135 +1.05000e+00   3978 +9.98200e-01 g/cm^3
+ Visc  +9.06239e-03   4010 +1.00300e-02  17135 +0.00000e+00 g/cm-s
+ Cond  +5.56877e-03   4010 +6.00000e-03  17135 +1.53000e-03 W/cm-K
+ SpecH  +3.97632e+00   4010 +4.18200e+00  17135 +2.05000e+00 J/g-K
+ Emiss  +9.03528e-01   4010 +1.00000e+00  17135 +0.00000e+00  
+ Transmiss  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00  
+ WRough  +0.00000e+00   4010 +0.00000e+00   3978 +0.00000e+00 cm
+ SeeBeck  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 V/K
+ SHGC  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 
+ Ufactor  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 
+ GenT  +5.08721e+07  29337 +1.44132e+11  17135 +0.00000e+00 1/s
+
+
+*** Openings ***
+
+
+          *** Inlet 1 ***
+
+  Surface ID = 36
+
+  Node near Minimum X,Y,Z of opening = 11197
+
+  Minimum X,Y,Z of opening = -0.612311, -29.858972, -2.251586
+
+     Mass Flow In             = 1.20094e+06 g/s
+     Volume Flow In          = 1.2031e+06 cm^3/s
+     Reynolds Number         = 1.08876e+07
+     Inlet Bulk Pressure     = 3.20566e+19 dyne/cm^2
+     Inlet Bulk Temperature  = 0 C
+     Inlet Mach Number       = 2.25436e-06
+
+  Total Mass Flow In     = 1.20094e+06 g/s
+
+  Total Vol. Flow In     = 1.2031e+06 cm^3/s
+
+
+          *** Statistics for Velocity Magnitude ***
+
+  Value Range [cm/s]             Percent Volume
+  0.000000 - 7869245.586891        99.999699
+  7869245.586891 - 15738491.173783        0.000187
+  15738491.173783 - 23607736.760674        0.000043
+  23607736.760674 - 31476982.347566        0.000022
+  31476982.347566 - 39346227.934457        0.000017
+  39346227.934457 - 47215473.521348        0.000003
+  47215473.521348 - 55084719.108240        0.000007
+  55084719.108240 - 62953964.695131        0.000002
+  62953964.695131 - 70823210.282023        0.000002
+  70823210.282023 - 78692455.868914        0.000003
+  78692455.868914 - 86561701.455805        0.000002
+  86561701.455805 - 94430947.042697        0.000001
+  94430947.042697 - 102300192.629588        0.000005
+  102300192.629588 - 110169438.216480        0.000003
+  110169438.216480 - 118038683.803371        0.000001
+  118038683.803371 - 125907929.390262        0.000000
+  125907929.390262 - 133777174.977154        0.000000
+  133777174.977154 - 141646420.564045        0.000001
+  141646420.564045 - 149515666.150937        0.000001
+  149515666.150937 - 157384911.737828        0.000001
+Mean Value = 239316.741164 , Standard Deviation = 3997879.271337 
+
+
+*** Sum of Fluid Forces on Walls ***
+   ShearX, PressX =  -2.2022e+09   -9.8868e+09   dynes
+   ShearY, PressY =   1.8066e+10     3.877e+21   dynes
+   ShearZ, PressZ =   3.7054e+10   -1.5078e+16   dynes
+
+*** Analysis Statistics: 
+
+ Input:               21 seconds 
+ Analysis:           479 seconds 
+ Output:               1 seconds 
+ Total:              501 seconds 
+
+ Headnode process dynamic memory 218 Mbytes
+ Computenode process 0 dynamic memory 83 Mbytes
+ Computenode process 1 dynamic memory 85 Mbytes
+ Computenode process 2 dynamic memory 75 Mbytes
+ Computenode process 3 dynamic memory 86 Mbytes
+ 

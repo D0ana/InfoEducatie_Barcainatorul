@@ -1,0 +1,91 @@
+[19:15:27] Cannot find a flags file
+[19:15:27] Loading qm files
+[19:15:27] System language is English
+[19:15:29] Completed pre-event loop tasks in 1.178 sec
+[19:15:29] Start processing tasks
+[19:15:29] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[19:15:29] Creating main view...
+[19:15:30] Creating actions...
+[19:15:30] Creating quick widgets...
+[19:15:30] Creating panel...
+[19:15:30] Creating status bar...
+[19:15:30] Creating tool bar...
+[19:15:30] Initializing menu...
+[19:15:30] Task finished in 1.66 sec
+[19:15:30] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[19:15:31] Task finished in 0.63 sec
+[19:15:31] Starting task: Clt::InitializationTasks::initializeWebServices
+[19:15:32] Task finished in 0.51 sec
+[19:15:32] Starting task: Clt::InitializationTasks::initializeAirLook
+[19:15:34] Task finished in 2.13 sec
+[19:15:34] Starting task: Clt::InitializationTasks::initializeServerGroup
+[19:15:34] Task finished in 0.00 sec
+[19:15:34] Starting task: Clt::InitializationTasks::initializeHelpManager
+[19:15:34] Task finished in 0.00 sec
+[19:15:34] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[19:15:34] Task finished in 0.32 sec
+[19:15:34] Starting task: Clt::InitializationTasks::assignShortcuts
+[19:15:34] Task finished in 0.00 sec
+[19:15:34] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[19:15:34] Task finished in 0.00 sec
+[19:15:34] Starting task: Clt::InitializationTasks::initializeGAT
+[19:15:34] Task finished in 0.00 sec
+[19:15:34] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[19:15:34] Task finished in 0.00 sec
+[19:15:34] Starting task: Clt::InitializationTasks::initializeLicensing
+[19:15:34] Creating license manager...
+[19:15:34] Initializing license manager...
+[19:15:34] Listen for lost license signal...
+[19:15:34] Task finished in 0.00 sec
+[19:15:34] Starting task: Checkout CFD UI
+[19:15:34] Authorizing CFD UI...
+[19:15:37] Success
+[19:15:37] Task finished in 2.54 sec
+[19:15:37] Starting task: Clt::InitializationTasks::checkForLicensingError
+[19:15:37] Task finished in 0.06 sec
+[19:15:37] Starting task: Clt::InitializationTasks::showMainWindow
+[19:15:37] Loading layout...
+[19:15:38] Task finished in 0.97 sec
+[19:15:38] Starting task: Clt::InitializationTasks::hideSplashScreen
+[19:15:38] Task finished in 0.00 sec
+[19:15:38] Starting task: Clt::InitializationTasks::initializeCustomResults
+[19:15:38] Task finished in 0.00 sec
+[19:15:38] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[19:15:38] Task finished in 0.00 sec
+[19:15:38] Starting task: Clt::InitializationTasks::initializePythonHooks
+[19:15:38] Loading CFD resource file...
+[19:15:39] Task finished in 0.34 sec
+[19:16:00] Starting task: Clt::InitializationTasks::runScript
+[19:16:00] Task finished in 0.00 sec
+[19:16:00] Finished processing tasks in 31.31 sec
+[19:21:19] ### Critical: E:\CI\Jenkins\master\Projects\Client\source\clt_job_submitter.cpp 839
+The Scenario cannot run because a part has an unassigned material setting
+[19:21:57] Analysis::writeGBIFile = 0.001 sec
+[19:21:57] Login expiration: Sun Mar 28 20:14:03 2021
+[19:21:57] Token expiration: Tue Mar 16 19:08:34 2021
+[19:21:57] Analysis::exportJobFiles = 0.009 sec
+[19:21:57] TestSpatiu/Design 1/Scenario 1 job started at Sun Mar 14 19:21:57 2021 on DESKTOP-2U6E3KC
+[19:21:57] TestSpatiu/Design 1/Scenario 1 mesher started at Sun Mar 14 19:21:57 2021 on DESKTOP-2U6E3KC
+[19:22:34] ### Critical: E:\CI\Jenkins\master\Projects\Mesher\source\cfm_meshcore.cpp 3962
+Surface 1426 cannot be meshed near -91.0529 146.369 -2.86093 (1103)
+[19:22:34] TestSpatiu/Design 1/Scenario 1 mesher finished at Sun Mar 14 19:22:34 2021 on DESKTOP-2U6E3KC with code = 1
+[19:22:34] TestSpatiu/Design 1/Scenario 1 job finished at Sun Mar 14 19:22:34 2021 on DESKTOP-2U6E3KC
+[19:23:38] Analysis::writeGBIFile = 0.001 sec
+[19:23:38] Login expiration: Sun Mar 28 20:14:03 2021
+[19:23:38] Token expiration: Tue Mar 16 19:08:34 2021
+[19:23:38] Analysis::exportJobFiles = 0.008 sec
+[19:23:38] TestSpatiu/Design 1/Scenario 1 job started at Sun Mar 14 19:23:38 2021 on DESKTOP-2U6E3KC
+[19:23:38] TestSpatiu/Design 1/Scenario 1 mesher started at Sun Mar 14 19:23:38 2021 on DESKTOP-2U6E3KC
+[19:24:06] ### Critical: E:\CI\Jenkins\master\Projects\Mesher\source\cfm_meshcore.cpp 3962
+Surface 1426 cannot be meshed near -91.0529 146.369 -2.86093 (1103)
+[19:24:07] TestSpatiu/Design 1/Scenario 1 mesher finished at Sun Mar 14 19:24:06 2021 on DESKTOP-2U6E3KC with code = 1
+[19:24:07] TestSpatiu/Design 1/Scenario 1 job finished at Sun Mar 14 19:24:06 2021 on DESKTOP-2U6E3KC
+[19:24:58] Analysis::writeGBIFile = 0.001 sec
+[19:24:58] Login expiration: Sun Mar 28 20:14:03 2021
+[19:24:58] Token expiration: Tue Mar 16 19:08:34 2021
+[19:24:58] Analysis::exportJobFiles = 0.001 sec
+[19:24:59] TestSpatiu/Design 1/Scenario 1 job started at Sun Mar 14 19:24:59 2021 on DESKTOP-2U6E3KC
+[19:24:59] TestSpatiu/Design 1/Scenario 1 mesher started at Sun Mar 14 19:24:59 2021 on DESKTOP-2U6E3KC
+[19:25:33] ### Critical: E:\CI\Jenkins\master\Projects\Mesher\source\cfm_meshcore.cpp 3962
+Surface 1426 cannot be meshed near -91.0529 146.369 -2.86093 (1103)
+[19:25:33] TestSpatiu/Design 1/Scenario 1 mesher finished at Sun Mar 14 19:25:33 2021 on DESKTOP-2U6E3KC with code = 1

@@ -1,0 +1,7 @@
+<cfd_design_studies version="21.0.20201120" user_name="alexo">
+ <design_study instance_id="id_not_defined" folder="C:/Users/alexo/Documents/Inventor/TheArch/R&amp;D/Alpha0/Structura/Prototip1_1" name="Prototip1_1" study_id="39d51537-a56d-4062-8f26-49ea8d99ef95">
+  <design launcher_type="CP_ASM_INVENTOR_IMPORT" model_id="Prototip1.cfdsmt" lock_status="false" name="Design 1">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>
