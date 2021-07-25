@@ -159,9 +159,9 @@ def init():
     motor.angle = 0
 
     #------PID---------
-    directiPID.set(0.24,0,0,.95, 5) # kp = 0.24, ki = 0, kd = 0, factorul de netezire = 0.95, toleranta = 5 grade
-    balansPID.set(0.134,0,0,.95, 5) # kp = 0.134, ki = 0, kd = 0, factorul de netezire = 0.95, toleranta = 5 grade
-    vitezaPID.set(0.0027,0,0,.95,0.01) # kp = 0.0027, ki = 0, kd = 0, factorul de netezire = 0.95, toleranta = 0.01 unitati de lungime
+    directiPID.set(0.32,0.01,0.2,.95, 5) # kp = 0.32, ki = 0.01, kd = 0.2, factorul de netezire = 0.95, toleranta = 5 grade
+    balansPID.set(0.1,1.2,0.5,.95, 5) # kp = 0.1, ki = 1.2, kd = 0.5, factorul de netezire = 0.95, toleranta = 5 grade
+    vitezaPID.set(0.003,0.001,0,.95,0.01) # kp = 0.003, ki = 0.001, kd = 0, factorul de netezire = 0.95, toleranta = 0.01 unitati de lungime
     #vrem ca sistemul sa se stabilizeze in jurul valorii 0
     directiPID.go(0)
     balansPID.go(0)
