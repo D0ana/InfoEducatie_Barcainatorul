@@ -3,4 +3,4 @@ Barcainatorul este un proiect realizat pentru Olimpiada de Inovare și Creație 
 
 Pentru a afla toata povestea din spatele proiectului accesati ["documentatie.pdf"](documentatie.pdf) din repository.
 
-Imbunatatirile aduse proiectului pot fi descoperite in ["Update - se poate si mai bine.pdf"](Update%20-%20se%20poate%20si%20mai%20bine.pdff)
+Imbunatatirile aduse proiectului pot fi descoperite in ["Update - se poate si mai bine.pdf"](Update%20-%20se%20poate%20si%20mai%20bine.pdf).
